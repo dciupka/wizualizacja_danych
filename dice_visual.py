@@ -26,10 +26,10 @@ for value in range(2,max_result):
 
 # wizualizacja wyników
 
-x_values = list(range(1, max_result+ 1))
+x_values = list(range(2, max_result+ 1))
 data = [Bar(x=x_values, y=frequ)]
 
-x_axis_config = {'title': 'Wynik'}
+x_axis_config = {'title': 'Wynik', 'dtick':1}  #dtick znacznik pod każdym słupkiem i odleglosc pomiedzy słupkai jak :3 co 3,9 slupkipodpisane
 y_axis_config = {'title': 'Częstotliwośc'}
 
 my_layout = Layout(title='Wyniki wyrzucania pojedynczą kością', xaxis=(x_axis_config), yaxis=y_axis_config)
