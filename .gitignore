@@ -1,4 +1,5 @@
-*.d6-page.html
-*.d8-page.html
-*.d6-d6.html
-*.d12-page.html
+*
+.d6-page.html
+.d8-page.html
+.d6-d6.html
+.d12-page.html
